@@ -1,0 +1,58 @@
+body{
+	width: 760px;
+	margin: 0 auto;
+/*margin 0 es para sup e inf & auto es para der e izq*/	
+}
+
+.miHeader{
+	background-color: #4960aa; 
+}
+
+.miHeader .miH1{
+	color: white;
+}
+
+.miMenu{
+	background-color: orange;
+}
+
+#contenido{
+	background: green;
+	overflow: hidden;
+
+}
+
+#contenido .section{
+	background-color: #4960aa; 
+	width: 420px;
+	height: 500px;
+	float: left; 
+}
+
+#contenido .aside{
+	background-color: #4960aa;
+	width: 310px;
+	height: 500px;
+	float: right; 
+}
+
+/*#contenido .section .miH5, .aside .miH5{
+	color: white;
+	font-size: 28px;
+}*/
+
+#contenido .miH5{
+	color: white;
+	font-size: 28px;
+}
+
+.miFooter{
+	background-color: #4960aa;
+	text-align: center;
+	height: 40px; 
+}
+
+.miFooter .miP{
+	color: white;
+	font-size: 28px;
+}
